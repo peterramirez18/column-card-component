@@ -26,7 +26,6 @@ p {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background-color: rebeccapurple;
 }
 
 @media (max-width: 960px) {
