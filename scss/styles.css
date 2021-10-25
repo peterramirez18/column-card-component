@@ -26,6 +26,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  background-color: #f2f2f2;
 }
 
 @media (max-width: 960px) {
@@ -41,6 +42,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 4rem;
 }
 
 @media (max-width: 960px) {
