@@ -5,18 +5,23 @@
 
 .previewcard{
           display: flex;
-          flex-direction: column;
           justify-content: center;
           align-items: center;
           height: 100vh;
 
+          @media (max-width: 960px) {
+                   height: 100%;
+                   padding: 5rem 1rem;
+          }
+
           &__container{
                     width: 57.5rem;
                     height: auto;
-                    border-radius: 0.5rem;
                     display: flex;
-                    overflow: hidden;
-                    margin-top: 3.7rem;
+
+                    @media (max-width: 960px) {
+                              flex-direction: column;
+                    }
           }
 
           &__title{
@@ -37,12 +42,21 @@
                     line-height: 1.6rem;
                     width: 99%;
 
+                    @media (max-width: 960px) {
+                              width: 15rem;
+                     }
+
           }
 
 
           &__1, &__2, &__3{
                     padding: 2.9375rem;
                     width: 19.1875rem;
+
+                    @media (max-width: 960px) {
+                              flex-direction: column;
+                              width: 100%;
+                    }
                    
           }
 
@@ -64,12 +78,18 @@
 
           &__1{
                     background-color: $BrightOrange;
+                    border-radius: 0.5rem 0rem 0rem 0.5rem;
+
+                    @media (max-width: 960px) {
+                              border-radius: 0.5rem 0.5rem 0rem 0rem;
+                    }
+
                     .previewcard__learnmore{
                               color: $BrightOrange;
 
                               &:hover{
                                         color: $VeryLightGray;
-                              }
+                              } 
                     }
           }
 
@@ -85,6 +105,12 @@
 
           &__3{
                     background-color: $VeryDarkCyan;
+
+                    border-radius: 0rem 0.5rem 0.5rem 0rem;
+
+                    @media (max-width: 960px) {
+                              border-radius: 0rem 0rem 0.5rem 0.5rem;
+                    }
                     .previewcard__learnmore{
                               color: $VeryDarkCyan;
                               &:hover{
