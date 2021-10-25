@@ -1,0 +1,25 @@
+// ## Colors
+
+// ### Primary
+$BrightOrange: hsl(31, 77%, 52%);
+$DarkCyan: hsl(184, 100%, 22%);
+$VeryDarkCyan: hsl(179, 100%, 13%);
+
+// ### Neutral
+$TransparentWhite : hsla(0, 0%, 100%, 0.75); //(paragraphs)
+$VeryLightGray : hsl(0, 0%, 95%); //(background, headings, buttons)
+
+
+
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+$font1: 'Lexend Deca', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+$font2: 'Big Shoulders Display', cursive;
+
+
+// BreakPoints
+
+

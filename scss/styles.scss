@@ -1,0 +1,95 @@
+@import "_variables";
+@import "_globals";
+
+
+
+.previewcard{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+
+          &__container{
+                    width: 57.5rem;
+                    height: auto;
+                    border-radius: 0.5rem;
+                    display: flex;
+                    overflow: hidden;
+                    margin-top: 3.7rem;
+          }
+
+          &__title{
+                    font-family: $font2;
+                    font-size: 2.5rem;
+                    color: $VeryLightGray;
+                    text-transform: uppercase;
+                    margin-top: 2.9rem;
+                    margin-bottom: 2.6rem;
+                    
+          }
+          &__paragraph{
+                    font-family: $font1;
+                    font-size: 0.9375rem;
+                    margin-bottom: 5.4rem;
+
+                    color: $TransparentWhite;
+                    line-height: 1.6rem;
+                    width: 99%;
+
+          }
+
+
+          &__1, &__2, &__3{
+                    padding: 2.9375rem;
+                    width: 19.1875rem;
+                   
+          }
+
+          &__learnmore{
+                    padding: 0.9rem 2rem;
+                    background-color: $VeryLightGray;
+                    border: none;
+                    border-radius: 3rem;
+                    font-size: 0.89rem;
+                    letter-spacing: 0.03rem;
+                    font-family: $font1;
+
+                    &:hover{
+                              background: transparent;
+                              outline: solid 2px $VeryLightGray;
+                              cursor: pointer;
+                    }
+          }
+
+          &__1{
+                    background-color: $BrightOrange;
+                    .previewcard__learnmore{
+                              color: $BrightOrange;
+
+                              &:hover{
+                                        color: $VeryLightGray;
+                              }
+                    }
+          }
+
+          &__2{
+                    background-color: $DarkCyan;
+                    .previewcard__learnmore{
+                              color: $DarkCyan;
+                              &:hover{
+                                        color: $VeryLightGray;
+                              }
+                    }
+          }
+
+          &__3{
+                    background-color: $VeryDarkCyan;
+                    .previewcard__learnmore{
+                              color: $VeryDarkCyan;
+                              &:hover{
+                                        color: $VeryLightGray;
+                              }
+                    }
+          }
+}

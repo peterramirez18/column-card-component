@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1rem;
+}
+
+p {
+  line-height: 1rem;
+}
+
+.previewcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.previewcard__container {
+  width: 57.5rem;
+  height: auto;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin-top: 3.7rem;
+}
+
+.previewcard__title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-top: 2.9rem;
+  margin-bottom: 2.6rem;
+}
+
+.previewcard__paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  margin-bottom: 5.4rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6rem;
+  width: 99%;
+}
+
+.previewcard__1, .previewcard__2, .previewcard__3 {
+  padding: 2.9375rem;
+  width: 19.1875rem;
+}
+
+.previewcard__learnmore {
+  padding: 0.9rem 2rem;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 3rem;
+  font-size: 0.89rem;
+  letter-spacing: 0.03rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.previewcard__learnmore:hover {
+  background: transparent;
+  outline: solid 2px #f2f2f2;
+  cursor: pointer;
+}
+
+.previewcard__1 {
+  background-color: #e38826;
+}
+
+.previewcard__1 .previewcard__learnmore {
+  color: #e38826;
+}
+
+.previewcard__1 .previewcard__learnmore:hover {
+  color: #f2f2f2;
+}
+
+.previewcard__2 {
+  background-color: #006970;
+}
+
+.previewcard__2 .previewcard__learnmore {
+  color: #006970;
+}
+
+.previewcard__2 .previewcard__learnmore:hover {
+  color: #f2f2f2;
+}
+
+.previewcard__3 {
+  background-color: #004241;
+}
+
+.previewcard__3 .previewcard__learnmore {
+  color: #004241;
+}
+
+.previewcard__3 .previewcard__learnmore:hover {
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=styles.css.map */
