@@ -42,7 +42,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 @media (max-width: 960px) {
